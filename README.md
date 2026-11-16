@@ -161,16 +161,16 @@ End-to-end pipeline for highly imbalanced transaction data. Compared **XGBoost v
 ## Experience
 
 ```text
-2025 ─ now   🎬 Freelancer ── AI Video Creator & Software QA Engineer
+2025 ─ now      Freelancer ── AI Video Creator & Software QA Engineer
              │  Midjourney · Kling AI · Runway · ElevenLabs · CapCut
              │  Manual & automated testing in Agile-Scrum teams
              │
-2024         🏢 FPT Software ── AI Developer Intern (Sep – Dec 2024)
+2024            FPT Software ── AI Developer Intern (Sep – Dec 2024)
              │  LMS features: TypeScript · Django · React · NodeJS · Python
              │
-2022 ─ 2026  🎓 FPT University HCMC ── B.Sc. Artificial Intelligence
+2022 ─ 2026     FPT University HCMC ── B.Sc. Artificial Intelligence
              │
-2022         🌏 UCSI University, Malaysia ── English Exchange Program
+2022            UCSI University, Malaysia ── English Exchange Program
 ```
 
 ---
@@ -194,7 +194,7 @@ End-to-end pipeline for highly imbalanced transaction data. Compared **XGBoost v
 
 <div align="center">
 
-### 🤝 Let's build something with AI together
+### 🤝 Let's build something together
 
 <a href="mailto:nguyenductin.1410@gmail.com"><img src="https://img.shields.io/badge/Contact%20me-6C7DF0?style=for-the-badge&logo=maildotru&logoColor=white" /></a>
 
