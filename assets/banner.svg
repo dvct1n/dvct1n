@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" width="1000" height="260" role="img" aria-label="Nguyen Duc Tin - AI Engineer" xmlns:c2pa="http://c2pa.org/manifest">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07061c"/>
+      <stop offset="48%" stop-color="#14114a"/>
+      <stop offset="100%" stop-color="#2b2c92"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.35" r="0.6">
+      <stop offset="0%" stop-color="#6a73ff" stop-opacity=".42"/>
+      <stop offset="100%" stop-color="#6a73ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#dfe7ff" stop-opacity=".0"/>
+      <stop offset="35%" stop-color="#c9d6ff" stop-opacity=".75"/>
+      <stop offset="70%" stop-color="#8fa8ff" stop-opacity=".55"/>
+      <stop offset="100%" stop-color="#8fa8ff" stop-opacity=".0"/>
+    </linearGradient>
+    <linearGradient id="fog" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b0a2e" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0b0a2e" stop-opacity=".95"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity=".16"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity=".04"/>
+    </linearGradient>
+    <linearGradient id="glassStroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity=".55"/>
+      <stop offset="50%" stop-color="#b7c6ff" stop-opacity=".12"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity=".25"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#c3d1ff"/>
+    </linearGradient>
+    <radialGradient id="tlR" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#ff9b94"/><stop offset="1" stop-color="#ff5f57"/></radialGradient>
+    <radialGradient id="tlY" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#ffdc86"/><stop offset="1" stop-color="#febc2e"/></radialGradient>
+    <radialGradient id="tlG" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#7beb8a"/><stop offset="1" stop-color="#28c840"/></radialGradient>
+    <linearGradient id="deckFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#05041a" stop-opacity="0"/>
+      <stop offset="16%" stop-color="#05041a" stop-opacity="1"/>
+      <stop offset="84%" stop-color="#05041a" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#05041a" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur" x="-20%" y="-30%" width="140%" height="170%"><feGaussianBlur stdDeviation="14"/></filter>
+
+    <clipPath id="round"><rect width="1000" height="260" rx="20"/></clipPath>
+    <style>
+      .name{font:700 50px -apple-system,'SF Pro Display','Segoe UI',Helvetica,Arial,sans-serif;fill:url(#nameGrad);letter-spacing:.3px}
+      .role{font:500 16px -apple-system,'SF Pro Display','Segoe UI',Helvetica,Arial,sans-serif;fill:#e6ecff}
+      .tag{font:500 13.5px 'SF Mono',Menlo,Consolas,'Courier New',monospace;fill:#9db4ff}
+      .ttl{font:500 12.5px 'SF Mono',Menlo,Consolas,'Courier New',monospace;fill:#c9d6ff;opacity:.65}
+      .chip{font:600 12px -apple-system,'SF Pro Display','Segoe UI',Helvetica,Arial,sans-serif;fill:#f6c76b}
+      
+      .fl1{animation:fl 9s ease-in-out infinite}
+      .fl2{animation:fl 12s ease-in-out infinite reverse}
+      @keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+      .tw{animation:tw 3.2s ease-in-out infinite}
+      .t1{animation-delay:.8s}.t2{animation-delay:1.6s}.t3{animation-delay:2.4s}
+      @keyframes tw{0%,100%{opacity:.35}50%{opacity:1}}
+      .in{animation:inn 1.3s ease-out both}
+      .d2{animation-delay:.3s}.d3{animation-delay:.6s}.d4{animation-delay:.9s}
+      @keyframes inn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+
+    </style>
+  </defs>
+  <g clip-path="url(#round)">
+    <rect width="1000" height="260" fill="url(#bg)"/>
+    <rect width="1000" height="260" fill="url(#glow)"/>
+
+    <!-- layered ribbons (macOS 27 Golden Gate, dark) -->
+    <g class="fl2"><path d="M-20 120 C200 30 420 200 640 108 S 900 24 1020 58 V280 H-20 Z" fill="#2a29a0" fill-opacity=".38"/>
+      <path d="M-20 120 C200 30 420 200 640 108 S 900 24 1020 58" fill="none" stroke="url(#silver)" stroke-width="1.6"/></g>
+    <g class="fl1"><path d="M-20 160 C220 86 400 242 620 148 S 880 78 1020 108 V280 H-20 Z" fill="#1c1a6b" fill-opacity=".55"/>
+      <path d="M-20 160 C220 86 400 242 620 148 S 880 78 1020 108" fill="none" stroke="url(#silver)" stroke-width="1.4"/></g>
+    <path d="M-20 208 C240 150 420 258 650 196 S 900 160 1020 182 V280 H-20 Z" fill="#0c0b3a" fill-opacity=".9"/>
+    <path d="M-20 208 C240 150 420 258 650 196 S 900 160 1020 182" fill="none" stroke="url(#silver)" stroke-width="1.2" opacity=".8"/>
+
+    <!-- Golden Gate silhouette -->
+    <g>
+    <path d="M585 201 Q648.2 177.9 700 96" fill="none" stroke="#05041a" stroke-width="1.6"/>
+    <path d="M905 96 Q947.8 177.9 1000 201" fill="none" stroke="#05041a" stroke-width="1.6"/>
+    <path d="M700 96 Q802.5 220.0 905 96" fill="none" stroke="#05041a" stroke-width="2.0"/>
+    <line x1="713.0" y1="110.7" x2="713.0" y2="206" stroke="#05041a" stroke-width="0.8"/>
+    <line x1="726.0" y1="123.5" x2="726.0" y2="206" stroke="#05041a" stroke-width="0.8"/>
+    <line x1="739.0" y1="134.2" x2="739.0" y2="206" stroke="#05041a" stroke-width="0.8"/>
+    <line x1="752.0" y1="143.0" x2="752.0" y2="206" stroke="#05041a" stroke-width="0.8"/>
+    <line x1="765.0" y1="149.7" x2="765.0" y2="206" stroke="#05041a" stroke-width="0.8"/>
+    <line x1="778.0" y1="154.5" x2="778.0" y2="206" stroke="#05041a" stroke-width="0.8"/>
+    <line x1="791.0" y1="157.2" x2="791.0" y2="206" stroke="#05041a" stroke-width="0.8"/>
+    <line x1="804.0" y1="158.0" x2="804.0" y2="206" stroke="#05041a" stroke-width="0.8"/>
+    <line x1="817.0" y1="156.8" x2="817.0" y2="206" stroke="#05041a" stroke-width="0.8"/>
+    <line x1="830.0" y1="153.5" x2="830.0" y2="206" stroke="#05041a" stroke-width="0.8"/>
+    <line x1="843.0" y1="148.3" x2="843.0" y2="206" stroke="#05041a" stroke-width="0.8"/>
+    <line x1="856.0" y1="141.1" x2="856.0" y2="206" stroke="#05041a" stroke-width="0.8"/>
+    <line x1="869.0" y1="131.9" x2="869.0" y2="206" stroke="#05041a" stroke-width="0.8"/>
+    <line x1="882.0" y1="120.7" x2="882.0" y2="206" stroke="#05041a" stroke-width="0.8"/>
+    <line x1="895.0" y1="107.5" x2="895.0" y2="206" stroke="#05041a" stroke-width="0.8"/>
+    <rect x="694" y="92" width="4" height="122" fill="#05041a"/>
+    <rect x="702" y="92" width="4" height="122" fill="#05041a"/>
+    <rect x="694" y="118.0" width="12" height="2.2" fill="#05041a"/>
+    <rect x="694" y="147.2" width="12" height="2.2" fill="#05041a"/>
+    <rect x="694" y="176.5" width="12" height="2.2" fill="#05041a"/>
+    <rect x="692" y="88" width="16" height="3" rx="1.5" fill="#05041a"/>
+    <rect x="899" y="92" width="4" height="122" fill="#05041a"/>
+    <rect x="907" y="92" width="4" height="122" fill="#05041a"/>
+    <rect x="899" y="118.0" width="12" height="2.2" fill="#05041a"/>
+    <rect x="899" y="147.2" width="12" height="2.2" fill="#05041a"/>
+    <rect x="899" y="176.5" width="12" height="2.2" fill="#05041a"/>
+    <rect x="897" y="88" width="16" height="3" rx="1.5" fill="#05041a"/>
+    <rect x="545" y="206" width="495" height="5" fill="url(#deckFade)"/>
+    </g>
+    <circle class="tw t0" cx="599.0" cy="204.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t1" cx="610.0" cy="204.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t2" cx="621.0" cy="204.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t3" cx="632.0" cy="204.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t0" cx="643.0" cy="204.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t1" cx="654.0" cy="204.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t2" cx="665.0" cy="204.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t3" cx="676.0" cy="204.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t0" cx="687.0" cy="204.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t1" cx="698.0" cy="204.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t2" cx="709.0" cy="204.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t3" cx="720.0" cy="204.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t0" cx="731.0" cy="204.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t1" cx="742.0" cy="204.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t2" cx="753.0" cy="204.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t3" cx="764.0" cy="204.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t0" cx="775.0" cy="204.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t1" cx="786.0" cy="204.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t2" cx="797.0" cy="204.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t3" cx="808.0" cy="204.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t0" cx="819.0" cy="204.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t1" cx="830.0" cy="204.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t2" cx="841.0" cy="204.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t3" cx="852.0" cy="204.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t0" cx="863.0" cy="204.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t1" cx="874.0" cy="204.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t2" cx="885.0" cy="204.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t3" cx="896.0" cy="204.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t0" cx="907.0" cy="204.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t1" cx="918.0" cy="204.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t2" cx="929.0" cy="204.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t3" cx="940.0" cy="204.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t0" cx="951.0" cy="204.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t1" cx="962.0" cy="204.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t2" cx="973.0" cy="204.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t3" cx="984.0" cy="204.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t0" cx="995.0" cy="204.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t1" cx="700" cy="85" r="2.2" fill="#ffd98a"/>
+    <circle class="tw t1" cx="905" cy="85" r="2.2" fill="#ffd98a"/>
+    <rect y="170" width="1000" height="90" fill="url(#fog)"/>
+
+    <!-- glass window -->
+    <rect x="38" y="46" width="540" height="168" rx="22" fill="#000" opacity=".38" filter="url(#blur)"/>
+    <rect x="36" y="34" width="540" height="168" rx="22" fill="url(#glass)" stroke="url(#glassStroke)" stroke-width="1.2"/>
+    <path d="M58 35 H554" stroke="#fff" stroke-opacity=".35" stroke-width="1"/>
+    <circle cx="62" cy="56" r="6" fill="url(#tlR)"/>
+    <circle cx="82" cy="56" r="6" fill="url(#tlY)"/>
+    <circle cx="102" cy="56" r="6" fill="url(#tlG)"/>
+    <text class="ttl" x="124" y="60">~/dvct1n</text>
+    <rect x="434" y="45" width="122" height="24" rx="12" fill="#f6c76b" fill-opacity=".14" stroke="#f6c76b" stroke-opacity=".55"/>
+    <circle class="tw" cx="450" cy="57" r="3.2" fill="#f6c76b"/>
+    <text class="chip" x="460" y="61.5">Open to work</text>
+
+    <text class="name in" x="60" y="123">Nguyen Duc Tin</text>
+    <text class="role in d2" x="62" y="152">AI Engineer  ·  LLM &amp; Agentic Systems  ·  Multimodal RAG</text>
+    <text class="tag in d3" x="62" y="180">&lt;fine-tuning | rag | mlops | production-apis /&gt;</text>
+  </g>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTpmYTU2YzAxMy03MDkwLTRjNGQtYTI4Ni03OWE5ZTllYWY3OWIAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaGS7bEdP+OFrwxxeCgd1Ef8AAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo5OTFjOGQ3OC0xMTNlLTQxOWItYWNkOC0xOGM3MzNlZjQ4ZDBscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNobrtpZUc9aeBbbAceHh4jQQAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgg777zc2QOtSuzMLiBeqgjrNwSSlcepuuYsnfE1W18oeSkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaHQwk0t4hEizE11k/YLhG64AAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIHyyBkH7/2eW0v/2FJnjyramA/OcNZwfpYzrin3Nbm5uZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GS1DZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmZhNTZjMDEzLTcwOTAtNGM0ZC1hMjg2LTc5YTllOWVhZjc5Yi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjhhNDVhODdkLTRjNWUtNDM4MC1hNWYwLWQ1NjU0NzRlM2MyZXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCDvvvNzZA61K7MwuIF6qCOs3BJKVx6m65iyd8TVbXyh5KJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggwzYwjoF9L3ziYXmKl4Uh60m6Q/HRJwrrYQt19tcbztmiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggvYSRAdcwLiElZlGmhDYaV5IcJslhyJUICnKRZajy/0R0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQIaWlTK76X/v4zppE57aimU2+H5s2mNCaMAfQfKYMYIB+3a/1AQ7FiIZdTZgxqUnQ1CRNefAyUXazXFopN57cxE=</c2pa:manifest></metadata></svg>
