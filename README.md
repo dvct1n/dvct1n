@@ -192,28 +192,6 @@ End-to-end pipeline for highly imbalanced transaction data. Compared **XGBoost v
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img src="./assets/stats.svg" width="100%" alt="GitHub activity" />
-
-</div>
-
-### 🐍 Contribution Snake
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dvct1n/dvct1n/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dvct1n/dvct1n/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/dvct1n/dvct1n/output/github-snake-dark.svg" />
-</picture>
-
-</div>
-
----
-
 <div align="center">
 
 ### 🤝 Let's build something with AI together
