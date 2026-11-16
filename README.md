@@ -18,7 +18,7 @@
 
 ---
 
-## 🧠 About Me
+## About Me
 
 ```python
 class NguyenDucTin:
@@ -36,60 +36,60 @@ class NguyenDucTin:
         return ["AI/ML Engineer", "LLM Engineer", "Agentic AI Developer"]
 ```
 
-- 🔭 Currently building **agentic AI** systems with LangGraph, RAG and domain-specific tools
-- 🎯 I like end-to-end work: **data → training → evaluation → API → deployment**
-- 🏢 Previously AI Developer Intern at **FPT Software** (LMS platform)
-- 🎬 On the side: **AI video creator** and **Software QA** freelancer
-- 📫 Reach me at **nguyenductin.1410@gmail.com**
+- Currently building **agentic AI** systems with LangGraph, RAG and domain-specific tools
+- I like end-to-end work: **data → training → evaluation → API → deployment**
+- Previously AI Developer Intern at **FPT Software** (LMS platform)
+- On the side: **AI video creator** and **Software QA** freelancer
+- Reach me at **nguyenductin.1410@gmail.com**
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <table>
 <tr>
-<td width="210" valign="middle"><b>💻 Languages</b></td>
+<td width="210" valign="middle"><b>Languages</b></td>
 <td valign="middle"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&labelColor=0f0c29&logo=python&logoColor=white" alt="Python"/>&nbsp;<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&labelColor=0f0c29&logo=typescript&logoColor=white" alt="TypeScript"/>&nbsp;<img src="https://img.shields.io/badge/SQL-336791?style=flat-square&labelColor=0f0c29&logo=postgresql&logoColor=white" alt="SQL"/></td>
 </tr>
 <tr>
-<td width="210" valign="middle"><b>🧠 ML &amp; Deep Learning</b></td>
+<td width="210" valign="middle"><b>ML &amp; Deep Learning</b></td>
 <td valign="middle"><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&labelColor=0f0c29&logo=pytorch&logoColor=white" alt="PyTorch"/>&nbsp;<img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&labelColor=0f0c29&logo=scikitlearn&logoColor=white" alt="Scikit-learn"/>&nbsp;<img src="https://img.shields.io/badge/XGBoost-337AB7?style=flat-square&labelColor=0f0c29" alt="XGBoost"/>&nbsp;<img src="https://img.shields.io/badge/LightGBM-2980B9?style=flat-square&labelColor=0f0c29" alt="LightGBM"/>&nbsp;<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&labelColor=0f0c29&logo=opencv&logoColor=white" alt="OpenCV"/>&nbsp;<img src="https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square&labelColor=0f0c29" alt="MediaPipe"/></td>
 </tr>
 <tr>
-<td width="210" valign="middle"><b>🤖 LLM &amp; Agentic AI</b></td>
+<td width="210" valign="middle"><b>LLM &amp; Agentic AI</b></td>
 <td valign="middle"><img src="https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&labelColor=0f0c29&logo=huggingface&logoColor=black" alt="Transformers"/>&nbsp;<img src="https://img.shields.io/badge/PEFT%20/%20QLoRA-FF6F00?style=flat-square&labelColor=0f0c29" alt="PEFT / QLoRA"/>&nbsp;<img src="https://img.shields.io/badge/TRL-FFD21E?style=flat-square&labelColor=0f0c29&logo=huggingface&logoColor=black" alt="TRL"/>&nbsp;<img src="https://img.shields.io/badge/BitsAndBytes-302b63?style=flat-square&labelColor=0f0c29" alt="BitsAndBytes"/>&nbsp;<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&labelColor=0f0c29&logo=langchain&logoColor=white" alt="LangGraph"/>&nbsp;<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&labelColor=0f0c29&logo=langchain&logoColor=white" alt="LangChain"/>&nbsp;<img src="https://img.shields.io/badge/LLM%20APIs-6C7DF0?style=flat-square&labelColor=0f0c29" alt="LLM APIs"/></td>
 </tr>
 <tr>
-<td width="210" valign="middle"><b>👁️ Multimodal &amp; RAG</b></td>
+<td width="210" valign="middle"><b>Multimodal &amp; RAG</b></td>
 <td valign="middle"><img src="https://img.shields.io/badge/SigLIP2-6C7DF0?style=flat-square&labelColor=0f0c29" alt="SigLIP2"/>&nbsp;<img src="https://img.shields.io/badge/Qwen-6B4FBB?style=flat-square&labelColor=0f0c29" alt="Qwen"/>&nbsp;<img src="https://img.shields.io/badge/Gemma-4285F4?style=flat-square&labelColor=0f0c29&logo=google&logoColor=white" alt="Gemma"/>&nbsp;<img src="https://img.shields.io/badge/YOLOv6-00B0FF?style=flat-square&labelColor=0f0c29" alt="YOLOv6"/>&nbsp;<img src="https://img.shields.io/badge/Hybrid%20Retrieval-302b63?style=flat-square&labelColor=0f0c29" alt="Hybrid Retrieval"/>&nbsp;<img src="https://img.shields.io/badge/k--NN%20Search-302b63?style=flat-square&labelColor=0f0c29" alt="k-NN Search"/>&nbsp;<img src="https://img.shields.io/badge/Cross--Encoder%20Reranking-302b63?style=flat-square&labelColor=0f0c29" alt="Cross-Encoder Reranking"/>&nbsp;<img src="https://img.shields.io/badge/OCR-302b63?style=flat-square&labelColor=0f0c29" alt="OCR"/></td>
 </tr>
 <tr>
-<td width="210" valign="middle"><b>⚙️ Backend &amp; Frameworks</b></td>
+<td width="210" valign="middle"><b>Backend &amp; Frameworks</b></td>
 <td valign="middle"><img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&labelColor=0f0c29&logo=fastapi&logoColor=white" alt="FastAPI"/>&nbsp;<img src="https://img.shields.io/badge/Django-092E20?style=flat-square&labelColor=0f0c29&logo=django&logoColor=white" alt="Django"/>&nbsp;<img src="https://img.shields.io/badge/React-20232A?style=flat-square&labelColor=0f0c29&logo=react&logoColor=61DAFB" alt="React"/>&nbsp;<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&labelColor=0f0c29&logo=streamlit&logoColor=white" alt="Streamlit"/>&nbsp;<img src="https://img.shields.io/badge/Gradio-F97316?style=flat-square&labelColor=0f0c29&logo=gradio&logoColor=white" alt="Gradio"/></td>
 </tr>
 <tr>
-<td width="210" valign="middle"><b>🗄️ Data &amp; MLOps</b></td>
+<td width="210" valign="middle"><b>Data &amp; MLOps</b></td>
 <td valign="middle"><img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&labelColor=0f0c29&logo=pandas&logoColor=white" alt="Pandas"/>&nbsp;<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&labelColor=0f0c29&logo=numpy&logoColor=white" alt="NumPy"/>&nbsp;<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&labelColor=0f0c29&logo=postgresql&logoColor=white" alt="PostgreSQL"/>&nbsp;<img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&labelColor=0f0c29&logo=microsoftsqlserver&logoColor=white" alt="SQL Server"/>&nbsp;<img src="https://img.shields.io/badge/OpenSearch-005EB8?style=flat-square&labelColor=0f0c29&logo=opensearch&logoColor=white" alt="OpenSearch"/>&nbsp;<img src="https://img.shields.io/badge/Qdrant-DC244C?style=flat-square&labelColor=0f0c29&logo=qdrant&logoColor=white" alt="Qdrant"/>&nbsp;<img src="https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&labelColor=0f0c29&logo=elasticsearch&logoColor=white" alt="Elasticsearch"/>&nbsp;<img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&labelColor=0f0c29&logo=mlflow&logoColor=white" alt="MLflow"/>&nbsp;<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&labelColor=0f0c29&logo=docker&logoColor=white" alt="Docker"/>&nbsp;<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&labelColor=0f0c29&logo=git&logoColor=white" alt="Git"/>&nbsp;<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&labelColor=0f0c29&logo=github&logoColor=white" alt="GitHub"/>&nbsp;<img src="https://img.shields.io/badge/Colab-F9AB00?style=flat-square&labelColor=0f0c29&logo=googlecolab&logoColor=white" alt="Colab"/></td>
 </tr>
 <tr>
-<td width="210" valign="middle"><b>🧪 QA &amp; Testing</b></td>
+<td width="210" valign="middle"><b>QA &amp; Testing</b></td>
 <td valign="middle"><img src="https://img.shields.io/badge/Manual%20Testing-6C7DF0?style=flat-square&labelColor=0f0c29" alt="Manual Testing"/>&nbsp;<img src="https://img.shields.io/badge/Functional%20Testing-6C7DF0?style=flat-square&labelColor=0f0c29" alt="Functional Testing"/>&nbsp;<img src="https://img.shields.io/badge/Automated%20Testing-6C7DF0?style=flat-square&labelColor=0f0c29" alt="Automated Testing"/>&nbsp;<img src="https://img.shields.io/badge/akaAT%20Studio-302b63?style=flat-square&labelColor=0f0c29" alt="akaAT Studio"/></td>
 </tr>
 <tr>
-<td width="210" valign="middle"><b>🎬 AI Content Creation</b></td>
+<td width="210" valign="middle"><b>AI Content Creation</b></td>
 <td valign="middle"><img src="https://img.shields.io/badge/ChatGPT-74AA9C?style=flat-square&labelColor=0f0c29&logo=openai&logoColor=white" alt="ChatGPT"/>&nbsp;<img src="https://img.shields.io/badge/Midjourney-000000?style=flat-square&labelColor=0f0c29" alt="Midjourney"/>&nbsp;<img src="https://img.shields.io/badge/Dreamina%20Seedance-FF2D55?style=flat-square&labelColor=0f0c29" alt="Dreamina Seedance"/>&nbsp;<img src="https://img.shields.io/badge/Kling%20AI-1E90FF?style=flat-square&labelColor=0f0c29" alt="Kling AI"/>&nbsp;<img src="https://img.shields.io/badge/Runway-111111?style=flat-square&labelColor=0f0c29" alt="Runway"/>&nbsp;<img src="https://img.shields.io/badge/ElevenLabs-000000?style=flat-square&labelColor=0f0c29" alt="ElevenLabs"/>&nbsp;<img src="https://img.shields.io/badge/CapCut-000000?style=flat-square&labelColor=0f0c29&logo=capcut&logoColor=white" alt="CapCut"/></td>
 </tr>
 </table>
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🔮 Agentic Feng Shui Chatbot
+### Agentic Feng Shui Chatbot
 `Jun 2026`
 
 Multi-agent chatbot with RAG, **visual product retrieval** (SigLIP2 + OpenSearch k-NN) and deterministic Feng Shui tools (Can Chi, Nap Am, Five Elements). Benchmarked SigLIP2 vs fine-tuned **Qwen3-VL-8B** on Top-1, Recall@k and MRR.
@@ -99,7 +99,7 @@ Multi-agent chatbot with RAG, **visual product retrieval** (SigLIP2 + OpenSearch
 </td>
 <td width="50%" valign="top">
 
-### 📊 AI Research & Data Analysis Agent
+### AI Research & Data Analysis Agent
 `Mar 2026`
 
 Agent that decomposes analytical questions into multi-step workflows and picks tools dynamically: **SQL, Python analysis, web research, auto-visualization**. Outputs evidence-based reports from natural language.
@@ -111,7 +111,7 @@ Agent that decomposes analytical questions into multi-step workflows and picks t
 <tr>
 <td width="50%" valign="top">
 
-### 📄 Multimodal Document Intelligence & RAG
+### Multimodal Document Intelligence & RAG
 `Dec 2025`
 
 Understands PDFs, scans, tables, images and charts. **Hybrid retrieval** (dense + keyword + cross-encoder reranking) with **citation-aware answers** linked to the source page.
@@ -121,7 +121,7 @@ Understands PDFs, scans, tables, images and charts. **Hybrid retrieval** (dense 
 </td>
 <td width="50%" valign="top">
 
-### 🇻🇳 Vietnamese Domain-Specific SLM
+### Vietnamese Domain-Specific SLM
 `Sep 2025`
 
 Built a Vietnamese instruction dataset for customer support, then fine-tuned a compact LM with **QLoRA + SFT**. Compared against the pretrained baseline and served via a **FastAPI** inference service.
@@ -133,7 +133,7 @@ Built a Vietnamese instruction dataset for customer support, then fine-tuned a c
 <tr>
 <td width="50%" valign="top">
 
-### 🎙️ AI Meeting Intelligence System
+### AI Meeting Intelligence System
 `Jul 2025`
 
 Turns long meeting recordings into searchable knowledge: **Whisper ASR, Pyannote diarization**, speaker-aware summaries, and LLM extraction of decisions, action items, owners and deadlines, with semantic search over past meetings.
@@ -143,7 +143,7 @@ Turns long meeting recordings into searchable knowledge: **Whisper ASR, Pyannote
 </td>
 <td width="50%" valign="top">
 
-### 🛡️ Real-Time Fraud Detection & MLOps
+### Real-Time Fraud Detection & MLOps
 `Mar 2025`
 
 End-to-end pipeline for highly imbalanced transaction data. Compared **XGBoost vs LightGBM** (Precision, Recall, F1, ROC-AUC), with **MLflow** tracking, model versioning and a **Dockerized** real-time inference API.
@@ -154,11 +154,11 @@ End-to-end pipeline for highly imbalanced transaction data. Compared **XGBoost v
 </tr>
 </table>
 
-> 🔗 Check out my pinned repositories below for source code and write-ups.
+> Check out my pinned repositories below for source code and write-ups.
 
 ---
 
-## 💼 Experience
+## Experience
 
 ```text
 2025 ─ now   🎬 Freelancer ── AI Video Creator & Software QA Engineer
@@ -175,7 +175,7 @@ End-to-end pipeline for highly imbalanced transaction data. Compared **XGBoost v
 
 ---
 
-## 🏅 Certificates
+## Certificates
 
 <table>
 <tr><th align="left">Issuer</th><th align="left">Certificate</th><th align="left">What I learned</th><th align="center">Link</th></tr>
