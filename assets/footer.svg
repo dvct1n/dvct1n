@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 110" width="1000" height="110" role="img" aria-label="footer" xmlns:c2pa="http://c2pa.org/manifest">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07061c"/>
+      <stop offset="48%" stop-color="#14114a"/>
+      <stop offset="100%" stop-color="#2b2c92"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.35" r="0.6">
+      <stop offset="0%" stop-color="#6a73ff" stop-opacity=".42"/>
+      <stop offset="100%" stop-color="#6a73ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#dfe7ff" stop-opacity=".0"/>
+      <stop offset="35%" stop-color="#c9d6ff" stop-opacity=".75"/>
+      <stop offset="70%" stop-color="#8fa8ff" stop-opacity=".55"/>
+      <stop offset="100%" stop-color="#8fa8ff" stop-opacity=".0"/>
+    </linearGradient>
+    <linearGradient id="fog" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b0a2e" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0b0a2e" stop-opacity=".95"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity=".16"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity=".04"/>
+    </linearGradient>
+    <linearGradient id="glassStroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity=".55"/>
+      <stop offset="50%" stop-color="#b7c6ff" stop-opacity=".12"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity=".25"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#c3d1ff"/>
+    </linearGradient>
+    <radialGradient id="tlR" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#ff9b94"/><stop offset="1" stop-color="#ff5f57"/></radialGradient>
+    <radialGradient id="tlY" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#ffdc86"/><stop offset="1" stop-color="#febc2e"/></radialGradient>
+    <radialGradient id="tlG" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#7beb8a"/><stop offset="1" stop-color="#28c840"/></radialGradient>
+    <linearGradient id="deckFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#05041a" stop-opacity="0"/>
+      <stop offset="16%" stop-color="#05041a" stop-opacity="1"/>
+      <stop offset="84%" stop-color="#05041a" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#05041a" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur" x="-20%" y="-30%" width="140%" height="170%"><feGaussianBlur stdDeviation="14"/></filter>
+
+    <clipPath id="round"><rect width="1000" height="110" rx="20"/></clipPath>
+    <style>
+      .ft{font:500 15px -apple-system,'SF Pro Display','Segoe UI',Helvetica,Arial,sans-serif;fill:#e6ecff}
+      .fs{font:500 12.5px 'SF Mono',Menlo,Consolas,'Courier New',monospace;fill:#9db4ff}
+      
+      .fl1{animation:fl 9s ease-in-out infinite}
+      .fl2{animation:fl 12s ease-in-out infinite reverse}
+      @keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+      .tw{animation:tw 3.2s ease-in-out infinite}
+      .t1{animation-delay:.8s}.t2{animation-delay:1.6s}.t3{animation-delay:2.4s}
+      @keyframes tw{0%,100%{opacity:.35}50%{opacity:1}}
+      .in{animation:inn 1.3s ease-out both}
+      .d2{animation-delay:.3s}.d3{animation-delay:.6s}.d4{animation-delay:.9s}
+      @keyframes inn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+
+    </style>
+  </defs>
+  <g clip-path="url(#round)">
+    <rect width="1000" height="110" fill="url(#bg)"/>
+    <rect width="1000" height="110" fill="url(#glow)"/>
+    <g class="fl2"><path d="M-20 60 C200 14 420 90 640 50 S 900 10 1020 30 V130 H-20 Z" fill="#2a29a0" fill-opacity=".38"/>
+      <path d="M-20 60 C200 14 420 90 640 50 S 900 10 1020 30" fill="none" stroke="url(#silver)" stroke-width="1.4"/></g>
+    <g class="fl1"><path d="M-20 84 C220 48 400 108 620 76 S 880 44 1020 62 V130 H-20 Z" fill="#1c1a6b" fill-opacity=".55"/></g>
+    <g>
+    <path d="M120 93 Q219.0 85.3 300 58" fill="none" stroke="#05041a" stroke-width="1.3"/>
+    <path d="M700 58 Q781.0 85.3 880 93" fill="none" stroke="#05041a" stroke-width="1.3"/>
+    <path d="M300 58 Q500.0 102.0 700 58" fill="none" stroke="#05041a" stroke-width="1.6"/>
+    <line x1="320.0" y1="62.2" x2="320.0" y2="98" stroke="#05041a" stroke-width="0.6"/>
+    <line x1="340.0" y1="65.9" x2="340.0" y2="98" stroke="#05041a" stroke-width="0.6"/>
+    <line x1="360.0" y1="69.2" x2="360.0" y2="98" stroke="#05041a" stroke-width="0.6"/>
+    <line x1="380.0" y1="72.1" x2="380.0" y2="98" stroke="#05041a" stroke-width="0.6"/>
+    <line x1="400.0" y1="74.5" x2="400.0" y2="98" stroke="#05041a" stroke-width="0.6"/>
+    <line x1="420.0" y1="76.5" x2="420.0" y2="98" stroke="#05041a" stroke-width="0.6"/>
+    <line x1="440.0" y1="78.0" x2="440.0" y2="98" stroke="#05041a" stroke-width="0.6"/>
+    <line x1="460.0" y1="79.1" x2="460.0" y2="98" stroke="#05041a" stroke-width="0.6"/>
+    <line x1="480.0" y1="79.8" x2="480.0" y2="98" stroke="#05041a" stroke-width="0.6"/>
+    <line x1="500.0" y1="80.0" x2="500.0" y2="98" stroke="#05041a" stroke-width="0.6"/>
+    <line x1="520.0" y1="79.8" x2="520.0" y2="98" stroke="#05041a" stroke-width="0.6"/>
+    <line x1="540.0" y1="79.1" x2="540.0" y2="98" stroke="#05041a" stroke-width="0.6"/>
+    <line x1="560.0" y1="78.0" x2="560.0" y2="98" stroke="#05041a" stroke-width="0.6"/>
+    <line x1="580.0" y1="76.5" x2="580.0" y2="98" stroke="#05041a" stroke-width="0.6"/>
+    <line x1="600.0" y1="74.5" x2="600.0" y2="98" stroke="#05041a" stroke-width="0.6"/>
+    <line x1="620.0" y1="72.1" x2="620.0" y2="98" stroke="#05041a" stroke-width="0.6"/>
+    <line x1="640.0" y1="69.2" x2="640.0" y2="98" stroke="#05041a" stroke-width="0.6"/>
+    <line x1="660.0" y1="65.9" x2="660.0" y2="98" stroke="#05041a" stroke-width="0.6"/>
+    <line x1="680.0" y1="62.2" x2="680.0" y2="98" stroke="#05041a" stroke-width="0.6"/>
+    <rect x="294" y="54" width="4" height="52" fill="#05041a"/>
+    <rect x="302" y="54" width="4" height="52" fill="#05041a"/>
+    <rect x="294" y="67.4" width="12" height="2.2" fill="#05041a"/>
+    <rect x="294" y="79.8" width="12" height="2.2" fill="#05041a"/>
+    <rect x="294" y="92.3" width="12" height="2.2" fill="#05041a"/>
+    <rect x="292" y="50" width="16" height="3" rx="1.5" fill="#05041a"/>
+    <rect x="694" y="54" width="4" height="52" fill="#05041a"/>
+    <rect x="702" y="54" width="4" height="52" fill="#05041a"/>
+    <rect x="694" y="67.4" width="12" height="2.2" fill="#05041a"/>
+    <rect x="694" y="79.8" width="12" height="2.2" fill="#05041a"/>
+    <rect x="694" y="92.3" width="12" height="2.2" fill="#05041a"/>
+    <rect x="692" y="50" width="16" height="3" rx="1.5" fill="#05041a"/>
+    <rect x="80" y="98" width="840" height="5" fill="url(#deckFade)"/>
+    </g>
+    <circle class="tw t0" cx="134.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t1" cx="146.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t2" cx="158.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t3" cx="170.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t0" cx="182.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t1" cx="194.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t2" cx="206.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t3" cx="218.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t0" cx="230.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t1" cx="242.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t2" cx="254.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t3" cx="266.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t0" cx="278.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t1" cx="290.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t2" cx="302.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t3" cx="314.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t0" cx="326.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t1" cx="338.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t2" cx="350.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t3" cx="362.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t0" cx="374.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t1" cx="386.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t2" cx="398.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t3" cx="410.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t0" cx="422.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t1" cx="434.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t2" cx="446.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t3" cx="458.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t0" cx="470.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t1" cx="482.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t2" cx="494.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t3" cx="506.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t0" cx="518.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t1" cx="530.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t2" cx="542.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t3" cx="554.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t0" cx="566.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t1" cx="578.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t2" cx="590.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t3" cx="602.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t0" cx="614.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t1" cx="626.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t2" cx="638.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t3" cx="650.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t0" cx="662.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t1" cx="674.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t2" cx="686.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t3" cx="698.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t0" cx="710.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t1" cx="722.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t2" cx="734.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t3" cx="746.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t0" cx="758.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t1" cx="770.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t2" cx="782.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t3" cx="794.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t0" cx="806.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t1" cx="818.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t2" cx="830.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t3" cx="842.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t0" cx="854.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t1" cx="866.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t2" cx="878.0" cy="96.5" r="1.3" fill="#f6c76b"/>
+    <circle class="tw t1" cx="300" cy="47" r="2.2" fill="#ffd98a"/>
+    <circle class="tw t1" cx="700" cy="47" r="2.2" fill="#ffd98a"/>
+    <rect y="60" width="1000" height="50" fill="url(#fog)"/>
+    <rect x="352" y="14" width="296" height="34" rx="17" fill="url(#glass)" stroke="url(#glassStroke)" stroke-width="1.1"/>
+    <circle class="tw" cx="376" cy="31" r="3.4" fill="#f6c76b"/>
+    <text class="ft" x="392" y="36">Thanks for visiting  ·  dvct1n</text>
+  </g>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTozMDY0NzViNS1lZjBkLTQwOTQtODE1MS1lYWY1N2MwZjYxN2EAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaOpe/7ccUXJfALq4w62LVQQAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDpjNDMzNjM1NC0wZDJkLTQ0Y2QtOGE0OS1jY2VlMjBhNTBiZjlscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNofP/UhotvYozvqORiinRu/gAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgg9wher2UtWrjm+PD2bH+a2/Zo9cFMEajIw/jlhJRPv4akZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaPZ9uISGy2b+Yv7rc2vQ57sAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIHQowe8K4IXuSuZjaOXxJo7SRGgHL+haYT7lFzrntu+FZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GS8XZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjMwNjQ3NWI1LWVmMGQtNDA5NC04MTUxLWVhZjU3YzBmNjE3YS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjNiNDM0ODc3LTU5YmItNDRiZS05N2NhLWVmN2UxZjQyYzk3MXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCD3CF6vZS1auOb48PZsf5rb9mj1wUwRqMjD+OWElE+/hqJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggc2zmuhD7+ABDx25+H06tRWuntODa7iE4zqmNHObVgu2iY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggNAFkLRLP9i+KxXm/l9wfXWskskR9pkqPi9AtOIwv5F10Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQBvFezMe2t3OKmxrK6NcSR0tTXqbP+Ge1Rn8vsENwYB6NkZPxDiSiougeFfsDgYBCImZ+rHeMm/S6/acDiniNnk=</c2pa:manifest></metadata></svg>
